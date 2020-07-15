@@ -21,9 +21,9 @@ def output_array array
 end 
 
 def return_string_array (array)
-  array.each do |element|
-    new_string = element.to_s
-    new_string
+  array.collect do |element|
+     element.to_s
+    
   end 
   
 end 
