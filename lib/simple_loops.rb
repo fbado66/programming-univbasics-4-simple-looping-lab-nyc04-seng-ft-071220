@@ -23,7 +23,5 @@ end
 def return_string_array (array)
   array.collect do |element|
      element.to_s
-    
   end 
-  
 end 
